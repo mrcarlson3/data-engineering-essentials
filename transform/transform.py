@@ -3,7 +3,7 @@ import duckdb
 
 input_file = "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2025-01.parquet"
 
-def duckdb_read_parquet(input_file):
+def duckdb_read_parquet():
 
     con = None
 
@@ -17,4 +17,4 @@ def duckdb_read_parquet(input_file):
 
 
 if __name__ == "__main__":
-    duckdb_read_parquet(input_file)
+    duckdb_read_parquet()
